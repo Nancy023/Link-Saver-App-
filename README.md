@@ -150,3 +150,51 @@ Sign Up: Register a new user account.
 Login: Use your credentials to log in.
 Add Links: Navigate to the dashboard or add link page to save new URLs.
 View Links: See your saved links on the dashboard.
+
+Project Structure
+.
+├── Backend/
+│   ├── node_modules/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── .env.example # Optional: A template for .env
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── etc.
+│   ├── package.json
+│   └── .gitignore
+├── .gitignore
+└── README.md
+
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Contact
+Your Name/GitHub Username]- Nancy Gupta
+LinkedIn profile: https://www.linkedin.com/in/nancygupta023/
+
+---
+
+**How to add this to your GitHub:**
+
+1.  **Create the file:** In your `OMVAD Assignment` folder (the root folder of your Git repository), create a new file named `README.md`.
+2.  **Paste the content:** Copy the entire markdown content above and paste it into your `README.md` file.
+3.  **Fill in details:** Go through the template and replace bracketed `[placeholders]` with your specific information.
+4.  **Save the file.**
+5.  **Commit and Push:**
+    * Open your terminal in the `OMVAD Assignment` folder.
+    * `git add README.md`
+    * `git commit -m "Add README.md file"`
+    * `git push origin main` (You won't need `-u` again for this push, and it might ask for your PAT again if it's been a while).
+
+Once you push, the `README.md` file will automatically render on your GitHub repository's main page!
+
